@@ -1,5 +1,7 @@
 require 'pry'
 def reverse_each_word(sentence)
+  myAr=[]
+  myAr2=[]
   myAr=sentence.split("").reverse.join("")
   puts myAr
   myAr2=myAr2.split(" ").reverse.join(" ")
