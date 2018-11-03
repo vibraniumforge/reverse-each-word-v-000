@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   puts myAr2
   myAr2.each do |item| myAr.shift(item)
   end
-  return myAr
+  return myAr.join(",")
 end
