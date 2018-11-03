@@ -9,5 +9,6 @@ def reverse_each_word(sentence)
   #   # word.join(" ")
   #   # myAr.push(word)
   # end
+  puts myAr
    return myAr
 end
