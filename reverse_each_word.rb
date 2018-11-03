@@ -10,8 +10,9 @@
 
 def reverse_each_word(sentence)
  originalArCollect=sentence.split(" ")
+ finalAr=[]
  originalArCollect.collect do |word|
-   originalArCollect.reverse.join(" ")
+   finalAr.push (word.reverse)
  end
-originalArCollect
+finalAr.join(" ")
 end
