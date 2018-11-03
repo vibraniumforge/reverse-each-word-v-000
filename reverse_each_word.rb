@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   myAr=[]
   myAr2=sentence.split("").reverse.join("")
   puts myAr2
-  myAr2.split("").each_with_index do |word, index| myAr.unshift(myAr2[index])
+  myAr2.split("").each_with_index do |word, index| myAr.push(myAr2[index])
   end
   # puts myAr2
   # myAr2.each_with_index do |word, index| myAr.unshift(myAr2[index])
